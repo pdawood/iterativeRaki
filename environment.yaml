@@ -1,0 +1,12 @@
+name: iteraki
+channels:
+  - pytorch
+  - conda-forge
+  - frankong
+dependencies:
+  - sigpy
+  - pytorch=1.8.0
+  - cudatoolkit=11.1
+  - scikit-image
+  - jupyter
+  - matplotlib
